@@ -1,0 +1,10 @@
+replicaCount: 2
+image:
+  repository: bitnami/redis
+  tag: 6.2.1
+auth:
+  enabled: true
+  password: password
+persistence:
+  enabled: true
+  size: 8Gi

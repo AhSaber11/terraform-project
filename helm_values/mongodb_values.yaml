@@ -1,0 +1,13 @@
+replicaCount: 2
+image:
+  repository: bitnami/mongodb
+  tag: 4.4.6
+auth:
+  enabled: true
+  rootPassword: password
+  username: user
+  password: password
+  database: mydatabase
+persistence:
+  enabled: true
+  size: 8Gi

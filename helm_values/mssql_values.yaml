@@ -1,0 +1,10 @@
+replicaCount: 2
+image:
+  repository: mcr.microsoft.com/mssql/server
+  tag: 2019-latest
+auth:
+  enabled: true
+  saPassword: password
+persistence:
+  enabled: true
+  size: 8Gi

@@ -1,0 +1,8 @@
+image:
+  repository: myrepo/aspnet-app
+  tag: latest
+env:
+  - name: ASPNETCORE_ENVIRONMENT
+    value: Production
+service:
+  type: LoadBalancer
