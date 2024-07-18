@@ -14,7 +14,7 @@ This Terraform project provisions infrastructure for a web application, MongoDB,
 
 1. Clone this repository:
     ```sh
-    git clone <https://github.com/docker/awesome-compose/tree/master/aspnet-mssql>
+    git clone <https://github.com/AhSaber11/terraform-project.git>
     cd terraform-project
     ```
 
